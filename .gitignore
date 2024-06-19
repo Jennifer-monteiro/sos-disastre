@@ -1,17 +1,17 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# Node.js dependencies
 /node_modules
 /.pnp
 .pnp.js
 
-# testing
+# Testing
 /coverage
 
-# production
+# Production
 /build
 
-# misc
+# Misc
 .DS_Store
 .env.local
 .env.development.local
@@ -21,3 +21,49 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Environment variables file
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
+
+# JetBrains IDEs (IntelliJ, PyCharm) settings
+.idea/
+
+# MacOS system files
+.DS_Store
+
+# Log files
+*.log
+
+# Coverage reports
+htmlcov/
+
+# pytest specific
+.cache/
+
+# SQLite database files
+*.sqlite3
+
+# Flask instance folder
+instance/
+
+# static files
+staticfiles/
+
+# Local Python config files
+*.env
