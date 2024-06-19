@@ -18,6 +18,10 @@
     font-weight: 500;
 }
 
+.nav-bars-icon{
+    display: none;
+}
+
 @media screen and (max-width: 1040px){
     .nav-menu{
        flex-direction:column;
@@ -36,5 +40,8 @@
     }
     .nav-menu li a{
         font-size: 2rem;
+    }
+    .nav-bars-icon{
+        display: initial;
     }
 }
