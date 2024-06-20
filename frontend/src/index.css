@@ -32,9 +32,16 @@ ul{
   cursor: pointer;
 }
 
-.btn-light{
+.btn-2{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
   background: transparent;
   color: #fff;
+  border: 1px solid #fff;
+  font-weight:600;
+  font-weight: 600;
+  cursor: pointer;
 }
 
 .btn:hover{
@@ -42,3 +49,10 @@ ul{
   color: #fff;
   transition: 0.3s
 }
+
+.btn-2:hover{
+  background: rgba(255,255,255,0.2);
+  color: #fff;
+  transition: 0.3s
+}
+
